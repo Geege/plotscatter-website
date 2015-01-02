@@ -1,0 +1,447 @@
+
+body{
+	width: 100%;
+	min-height: 800px;
+	font: 100%/1.5 Arial;
+    font-family: Arial;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 100%;
+    line-height: 1.5;
+    font-size-adjust: none;
+    font-stretch: normal;
+    -x-system-font: none;
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+}
+
+#mainwrapper{
+    width 100%;
+}
+.home {
+    background-image: url("../images/a_crowd1.jpg");
+    width: 100%;
+    height: 680px;
+}
+    
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    opacity: 0;
+    position: fixed;
+    z-index: +2;
+}
+
+/*#header:hover{
+    opacity: 1;
+    transition-duration:  1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    
+} */
+
+.logo {
+    float: left;
+    margin-top: 35px; 
+    margin-left: 10px;
+}
+
+#main_menu{
+	width: 400px;
+	height: 80px;
+	margin-right: auto;
+	margin-top: 35px;
+	font-size: 16px;
+	color: #555559;
+	font-family: 'Lora', sans-serif;
+	text-align: center; 
+	border-radius: 8px;
+	text-align: left;
+	float: right;
+  
+}
+
+#main_menu ul {
+    list-style: none;
+}
+
+#main_menu li{
+	display: inline;
+    margin-left: -5px;
+	padding: 10px;
+	position: relative;
+	line-height: 2.8em;
+	text-align: right;
+	border: none;
+}
+
+#main_menu a{
+	text-decoration: none;
+    color: #F5BD47;
+}
+
+#main_menu a:hover{
+	text-decoration: underline;
+    color:#555559;
+    opacity: .9;
+    transition-delay: 5s; /* delays for 1 second */
+   f
+}
+
+#button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 150px;
+    padding: 8px;
+    color: #555559;
+    border: 1px solid #555559;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    background-color: transparent;
+    display: none;
+}
+
+#button {
+    color: #555559;
+}
+
+#button:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    
+    
+}
+
+
+
+#content {
+    width: 500px;
+    height: 400px;
+    background-color: #ffffff;
+    margin:50px;
+    margin-right: 250px;
+    float:right;
+    opacity: 0.85;
+    filter: alpha(opacity=85); /* For IE8 and earlier */
+}
+
+#values {
+    width: 100%;
+    height: 400px;
+    padding-top: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height: 1.5em;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    clear: both;
+    display: none;
+    
+}
+
+
+/* -----------------------About page----------------------*/
+.about {
+    width: 100%px;
+    height: 540px;
+
+}
+
+.barplotright {
+    float: right;
+    clear: both;
+}
+
+.barplotleft {
+    float: left;
+}
+
+.manifest {
+    width: 40%;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left; 
+    clear: both;
+    color: #555559;
+   
+}
+
+.manifest p{
+    margin-top: 70px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.yellow{
+    color: #F5BD47;
+
+    
+}
+
+.manifest ul{
+    margin-left: 1.1em;
+    margin-top: 40px;
+    line-height: 1.6; 
+    font-size: 35px;
+    font-weight: 600;
+    list-style: none; 
+}
+
+.whoweare{
+    width: 50%;
+    height: 450px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 20px;
+    float: right;
+    font-size: 20px;
+    font-weight: 300;
+    color: #555559;
+    line-height: 1.3em;
+}
+.whoweare p{
+    margin-top: 20px;
+}
+.whoweare ul{
+    margin-left: 1.2em;
+}
+
+/* -----------------------Services page----------------------*/
+.services {
+    width: 100%px;
+    height: 400px;
+    clear: both;
+    background: rgba(169,169,168,0.1);
+    margin-top: -20px;
+}
+
+#services {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: #555559;
+    font-weight: 500;
+  
+}
+
+.items{
+    width: 90%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-left: auto;
+    padding-right: auto;
+    vertical-align: middle;
+    
+  
+}
+
+.items div{
+  width: 130px;
+  margin-top: 20px;    
+  margin-left: 40px;
+  margin-right: 40px;
+  float: left;
+}
+
+.items p{
+ text-align: center;
+ margin-top: 3px;    
+}
+
+
+/* -----------------------Project page----------------------*/
+/* see demo.css and component.css for Gallery styling */
+
+
+
+/* -----------------------Contact page----------------------*/
+
+
+.contactus {
+    width: 100%;
+    height: 687px;
+    background-color: #555559;
+    opacity: .70;
+    clear: both;
+    z-index: 3;
+    
+    
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 92.5px;
+}
+
+.wrapper p{
+ color: white; 
+ font-style: italic;
+ font-size: 20px;
+ margin-left: 60px;
+ margin-bottom: 20px; 
+ 
+ 
+}
+
+.wrapper h2{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 200;
+    line-height: 60px;
+    margin-bottom: 16px;
+    margin-top: -55px;
+}
+
+.contact {
+    height: 360px;
+    float: left;
+    width: 998px;
+    margin-left: 60px;
+}
+
+
+.contact div {
+    margin-left: 10px 20px;
+    height: 70px;
+    width: 450px;
+    float: left;
+}
+
+.inputleft {
+    display: inline-block;
+    width: 400px;
+    margin-top: 5px;
+    padding: 9px;
+    border: 1px solid #fff;
+    outline: none;
+    clear: both;
+    float: left;
+
+}
+
+.inputright {
+    display: inline-block;
+    width: 400px;
+    margin-top: 5px;
+    padding: 9px;
+    border: 1px solid #fff;
+    outline: none;
+    float: left;
+    clear: both
+
+}
+
+.formtextleft {
+    color: #fff;
+    clear: both;
+    float: left;
+}
+
+.formtextright {
+    color: #fff;
+    float: left;   
+}
+
+#message {
+    height: 150px;
+    width: 850px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    clear: both;
+    float: left;
+    
+}
+
+#sendbutton {
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 220px;
+    width: 150px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    outline: none; 
+    text-decoration: none;
+    background-color: transparent;   
+}
+
+#sendbutton hover{
+    color: black;
+}
+
+.footer{
+ height: 175px;
+ background-color: #A9A9A8;
+ clear: both; 
+ z-index: 5;  
+ font-size: 16px;
+ 
+}
+
+.vancouvermap {
+    z-index: -5;
+    opacity: .3;
+   
+}
+
+.foreground{
+    margin-top: -153px;
+
+}
+.left{
+    clear: both;
+    float: left;
+    margin-top: 10px;
+    margin-left: 155px;
+    line-height: 1.2em;
+    font-weight: 400;
+    z-index: 5;
+}
+
+#address{
+    line-height: 1.65em;
+    font-weight: 100;
+}
+.right{
+ float: right; 
+ margin-right: 205px;
+}
+
+.right img{
+    margin-right: 5px;
+    margin-left: 5px;
+    opacity: .8;
+    z-index: 5;
+}
+
+.copyright {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    clear: both;
+    z-index: 5;
+}
+
+
+
+
+
+
+
