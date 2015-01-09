@@ -1,8 +1,9 @@
         //fade ins
         function init() {
             function fadeIn() {
-              $("#values").fadeIn(3000);
-              $("#button").fadeIn(3000);    
+			  $("#header").fadeIn(2500);	
+              $("#values").fadeIn(2500);
+              $("#button").fadeIn(2500);    
             }
             
           fadeIn();
@@ -11,7 +12,7 @@
            $.localScroll(); //button on home page
            //$.localScroll.hash();
            
-           $("#header").mouseenter(function(elem) {
+          /* $("#header").mouseenter(function(elem) {
                 $('#header').animate({opacity: 1}, 600);
               
            });
